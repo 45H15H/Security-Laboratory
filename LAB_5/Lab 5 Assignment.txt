@@ -1,0 +1,2 @@
+1. Write a program to encrypt the message "Are you Ready for class" using shift cipher with any key value. Then decrypt the message back to plain text.
+2. Write a program to find the key value of the given cipher text (JBCRCLQRWCRVNBJENBWRWN)
