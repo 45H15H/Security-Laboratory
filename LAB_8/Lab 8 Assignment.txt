@@ -1,0 +1,5 @@
+Q1. Write a program to encrypt and decrypt the message using
+the Substitution and permutation network.
+
+
+Q2. Write a program to implement the Feistel Cipher.
