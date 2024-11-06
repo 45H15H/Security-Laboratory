@@ -10,7 +10,7 @@ def mod_exp(base, exp, mod):
 
 # ElGamal Key Generation
 def key_generation():
-    p = 9
+    p = 11
     g = 2
     x = 3
     y = mod_exp(g, x, p)  # Public key component y = g^x % p
@@ -18,9 +18,10 @@ def key_generation():
 
 # ElGamal Encryption
 def encrypt(m, p, g, y):
-    k = 4 
+    k = 4
     c1 = mod_exp(g, k, p)
     c2 = (m * mod_exp(y, k, p))
+    print((m * (y ** k)) % 11)
     return c1, c2
 
 # ElGamal Decryption
